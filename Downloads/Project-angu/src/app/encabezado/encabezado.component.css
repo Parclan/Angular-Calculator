@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.container
+{
+  display: grid;
+  width: 50%;
+  place-items:center ;
+}
+
+#calcu
+{
+  position: absolute;
+  top: 16%;
+  height: 430px;
+  width: 290px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#calcu form{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#calcu input[type="textfield"]
+{
+  height: 25%;
+  width: 89%;
+  cursor: default;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: right;
+  font-size: 80px;
+  border: 0;
+  outline: none;
+}
+
+#calcu input[type="button"], input[type="reset"]
+{
+  width: 22%;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+  padding: 15px;
+  margin: 3px;
+  border: 0;
+  border-radius: 100%;
+}
+
+#calcu .orange
+{
+  background-color: orange;
+  color: white !important;
+}
+
+#calcu .gray
+{
+  background-color: gray;
+  color: white !important;
+}
+
+ul
+{
+  display: grid;
+  position: absolute;
+  list-style-type: none;
+  font-size: 30px;
+  top: 45%;
+  padding: 10px;
+  border: 2px ;
+  transition: 1s;
+  cursor: pointer
+}
+
+li
+{
+  color: white;
+}
+
+ul:hover
+{
+position: absolute;
+top: 30%;
+background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+transition: 1.1s;
+padding: 80px;
+border-radius: 50px;
+}
+
+
